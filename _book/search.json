@@ -1,0 +1,79 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "CASA0023 Learning Diary",
+    "section": "",
+    "text": "Preface\n\n\n\n\n\n\n\n\n\nHi! I am Jingwen Wang. I received my bachelor’s degree in Urban Planning and Design from Xi’an Jiaotong-Liverpool University. In the process of learning, I had developed a strong interest in GIS. Therefore, in my graduation thesis, I applied remote sensing and GIS knowledge to do the urban flood risk assessment of Suzhou City. I am currently pursuing a Master’s degree in Urban Spatial Science at UCL CASA. This learning diary is for one of my course: CASA0023 Remotely Sensing Cities and Environment led by Dr. Maclachlan."
+  },
+  {
+    "objectID": "intro.html",
+    "href": "intro.html",
+    "title": "1  Content",
+    "section": "",
+    "text": "week1 Introduction to Remote sensing\nweek2 Portfolio\nweek3 Corrections\nweek4 Policy\nweek5 Google Earth Engine I\nweek6 Classification I\nweek7 Classification II\nweek8 Temperature\nweek9 SAR\nweek10 Resources"
+  },
+  {
+    "objectID": "summary.html",
+    "href": "summary.html",
+    "title": "2  Summary",
+    "section": "",
+    "text": "In summary, this book has no content whatsoever.\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "References",
+    "section": "",
+    "text": "Ganesh, Senthil, and Niraj Kumar. 2013. “Turnaround Challenges of\na State-Owned Enterprise: A Case Study of Orissa Remote Sensing\nApplication Centre, India.” Asian Journal of Management\nCases 10: 163–77. https://doi.org/10.1177/0972820113498926."
+  },
+  {
+    "objectID": "week1.html",
+    "href": "week1.html",
+    "title": "2  Summary:",
+    "section": "",
+    "text": "Remote sensing is acquiring information from a distance (NASA).\nThere are two types of sensors, passive and active. Passive sensors Detects reflected energy, which is in electromagnetic waves, from the sun. Human eye, camera, satellite sensor are passive sensors. Active sensors actively emit electromagnetic waves and then waits to receive. Radar, X-ray, LiDAR are active sensors."
+  },
+  {
+    "objectID": "week10.html",
+    "href": "week10.html",
+    "title": "10  Summary",
+    "section": "",
+    "text": "In summary, this book has no content whatsoever.\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "week1.html#summary",
+    "href": "week1.html#summary",
+    "title": "2  week1",
+    "section": "2.1 summary",
+    "text": "2.1 summary\n\n2.1.1 lecture\nRemote sensing is acquiring information from a distance (NASA).\nThere are two types of sensors, passive and active. Passive sensors Detects reflected energy, which is in electromagnetic waves, from the sun. Human eye, camera, satellite sensor are passive sensors. Active sensors actively emit electromagnetic waves and then waits to receive. Radar, X-ray, LiDAR are active sensors.\n\n\n\n\n\n\n\n\n\nC=velocity of light\nλ=wavelength\nv=frequency\n\n\n\n\n\n\n\n\n\noscillation vs wavelength\n\n\n\n\n\n\n\n\n\nElectromagnetic radiation (EMR) may be absorbed by, transmitted through, and reflected by surface. It could also be scattered by particles in atmosphere.\nElectromagnetic radiation (EMR): waves of an electromagnetic field\nRadiant energy: energy carried by EMR waves\nRadiant flux: energy per unit of time\nShortwave radiation: energy from the sun\nSolar irradiance flux: energy (solar power) from the sun per unit area per unit time\nExitance/emittance flux: energy leaving a surface per unit area per unit time\nThere are three types of atmospheric scattering: Rayleigh (smaller than the wavelength), Mie (same size of wavelength) and non-selective (larger than the wavelength).\nSynthetic Aperture Radar (SAR) can “see through clouds” and collect data at night.\nIn most cases remotely sensed data is raster.\nRemotely sensed data and applications will vary based on the four resolutions: spatial, spectral, temporal, and radiometric. A spectral signature can be discrete (e.g. multi spectral) or continuous (e.g. hyper spectral). Lower the radiometric resolution the lower the quality of the image and possibility to differentiate features.\n\n\n2.1.2 practice\n\n\n\n\n\n\n\n\n\nSentinel and Landsat product of Cape Town in South Africa\n\n\n\n\n\n\n\n\n\nMean and density of band values of the Sentinel"
+  },
+  {
+    "objectID": "week1.html#application",
+    "href": "week1.html#application",
+    "title": "2  week1",
+    "section": "2.2 application",
+    "text": "2.2 application\nRemote sensing has a wide range of applications. Including but not limited to agriculture, forestry, geoogy, hydrology, sea ice, land cover and land use, oceans and coastal monitoring, atmosphere monitoring, meteorological parametere measured by remote sensing, developing online mapping services and other fields.\nGanesh and Kumar (2013) use this diagram to show some of the applications of remote sensing."
+  },
+  {
+    "objectID": "week1.html#reflection",
+    "href": "week1.html#reflection",
+    "title": "2  week1",
+    "section": "2.3 reflection",
+    "text": "2.3 reflection\nThrough this week’s lecture, I learned the difference between active sensors and passive sensors, some terms related to remote sensing and four resolutions of remote sensing data: spatial, spectral, temporal, and radiometric. For the practice session, I used remote sensing data from Sentinel and Landsat and visualized their band values.\nThis week is the introduction to the remote sensing course, and I believe that the future learning content will be very rich.\n\n\n\n\nGanesh, Senthil, and Niraj Kumar. 2013. “Turnaround Challenges of a State-Owned Enterprise: A Case Study of Orissa Remote Sensing Application Centre, India.” Asian Journal of Management Cases 10: 163–77. https://doi.org/10.1177/0972820113498926."
+  },
+  {
+    "objectID": "week3.html#summary",
+    "href": "week3.html#summary",
+    "title": "4  week3",
+    "section": "4.1 summary",
+    "text": "4.1 summary\n\n4.1.1 lecture\nVirginia Norwood designed the Multispectral Scanner which was first used on Landsat 1.\n\n\n\n\n\n\n\n\n\nWhisk broom or spotlight or across track scanners\n\n\n\n\n\n\n\n\n\nLandsat7 and the sensors before it are whisk broom.\n\n4.1.1.1 Part 1: corrections\n1.1 Geometric\nWhen remotely sensed data is collected, image distortions can be introduced due to view angle, topography, wind and rotation of the earth.\nTo match known points in the image and a reference dataset.\nInput to output:\n\n\n\n\n\n\n\n\n\nOutput to input:\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe model with the lowest RMSE will fit best.\n1.2 Atmospheric\nTo deal with environmental attenuation caused by atmospheric scattering.\nAdjacency effect of remote sensing image: Through atmospheric scattering, the radiation contribution of non-target pixels to target pixels in remote sensing image.\nThe adjacency effect in remote sensing makes the edge of the object blurred in the remote sensing image, which leads to the passivation and distortion of the remote sensing image.\nIn order to obtain high precision surface parameters, it is necessary to design a method to remove the influence of adjacency effect on target pixels.\nRelative (to something)\nNormalize intensities of different bands within a single image\nNormalise intensities of bands from many dates to one date\nAbsolute(definitive)\nChange digital brightness values into scaled surface reflectance.\nEmpirical Line Correction\n\n\n\n\n\n\n\n\n\n1.3 Orthorectification / Topographic correction\ngeorectification = giving coordinates to an image\northorectification = removing distortions... making the pixels viewed at nadir (straight down)\n\n\n\n\n\n\n\n\n\n1.4 Radiometric calibration\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRadiance refers to any radiation leaving the Earth (i.e. upwelling, toward the sensor.\nIrradiance, is used to describe downwelling radiation reaching the Earth from the sun.\nPart 2: data joining and enhancement\n2.1 Feathering\n“Mosaicking”.\nThe base and second image overlap 20 to 30%.\n2.2 Image enhancement\n\n\n\n\n\n\n\n\n\nContrast enhancement\nBand ratio\nFiltering\nPCA\nImage fusion"
+  },
+  {
+    "objectID": "week2.html",
+    "href": "week2.html",
+    "title": "3  week2",
+    "section": "",
+    "text": "This week we learned how to use Xaringan and Quarto book. The following is a ppt about a remote sensing sensor that I made.\n\n\nWarning: package 'xaringanExtra' was built under R version 4.3.2"
+  }
+]

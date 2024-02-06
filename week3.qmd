@@ -1,0 +1,119 @@
+# week3
+
+## summary
+
+### lecture
+
+Virginia Norwood designed the Multispectral Scanner which was first used on Landsat 1.
+
+```{r echo=FALSE, out.width='100%', fig.align='center'}
+knitr::include_graphics('img/01week3.jpg')
+```
+
+Whisk broom or spotlight or across track scanners
+
+```{r echo=FALSE, out.width='100%', fig.align='center'}
+knitr::include_graphics('img/02week3.jpg')
+```
+
+Landsat7 and the sensors before it are whisk broom.
+
+#### Part 1: corrections
+
+1.1 Geometric
+
+When remotely sensed data is collected, image distortions can be introduced due to view angle, topography, wind and rotation of the earth.
+
+To match known points in the image and a reference dataset.
+
+Input to output:
+
+```{r echo=FALSE, out.width='60%', fig.align='center'}
+knitr::include_graphics('img/03week3.jpg')
+```
+
+Output to input:
+
+```{r echo=FALSE, out.width='60%', fig.align='center'}
+knitr::include_graphics('img/04week3.jpg')
+```
+
+```{r echo=FALSE, out.width='50%', fig.align='center'}
+knitr::include_graphics('img/05week3.jpg')
+```
+
+The model with the lowest RMSE will fit best.
+
+1.2 Atmospheric
+
+To deal with environmental attenuation caused by atmospheric scattering.
+
+Adjacency effect of remote sensing image: Through atmospheric scattering, the radiation contribution of non-target pixels to target pixels in remote sensing image.
+
+The adjacency effect in remote sensing makes the edge of the object blurred in the remote sensing image, which leads to the passivation and distortion of the remote sensing image.
+
+In order to obtain high precision surface parameters, it is necessary to design a method to remove the influence of adjacency effect on target pixels.
+
+Relative (to something)
+
+Normalize intensities of different bands within a single image
+
+Normalise intensities of bands from many dates to one date
+
+Absolute(definitive)
+
+Change digital brightness values into scaled surface reflectance.
+
+Empirical Line Correction
+
+```{r echo=FALSE, out.width='100%', fig.align='center'}
+knitr::include_graphics('img/06week3.jpg')
+```
+
+1.3 Orthorectification / Topographic correction
+
+georectification = giving coordinates to an image
+
+orthorectification = removing distortions\... making the pixels viewed at nadir (straight down)
+
+```{r echo=FALSE, out.width='50%', fig.align='center'}
+knitr::include_graphics('img/07week3.jpg')
+```
+
+1.4 Radiometric calibration
+
+```{r echo=FALSE, out.width='100%', fig.align='center'}
+knitr::include_graphics('img/08week3.jpg')
+```
+
+```{r echo=FALSE, out.width='60%', fig.align='center'}
+knitr::include_graphics('img/09week3.jpg')
+```
+
+Radiance refers to any radiation leaving the Earth (i.e. upwelling, toward the sensor.
+
+Irradiance, is used to describe downwelling radiation reaching the Earth from the sun.
+
+Part 2: data joining and enhancement
+
+2.1 Feathering
+
+"Mosaicking".
+
+The base and second image overlap 20 to 30%.
+
+2.2 Image enhancement
+
+```{r echo=FALSE, out.width='100%', fig.align='center'}
+knitr::include_graphics('img/10week3.jpg')
+```
+
+Contrast enhancement
+
+Band ratio
+
+Filtering
+
+PCA
+
+Image fusion

@@ -1,0 +1,10 @@
+# Preface {.unnumbered}
+
+```{r  echo=FALSE, out.width='100%', fig.align='center'}
+knitr::include_graphics('img/cucoloris.jpg')
+```
+
+Hi! I am Jingwen Wang. I received my bachelor's degree in Urban Planning and Design from Xi'an Jiaotong-Liverpool University. In the process of learning, I had developed a strong interest in GIS. Therefore, in my graduation thesis, I applied remote sensing and GIS knowledge to do the urban flood risk assessment of Suzhou City. I am currently pursuing a Master's degree in Urban Spatial Science at UCL CASA. This learning diary is for one of my course: CASA0023 Remotely Sensing Cities and Environment led by Dr. Maclachlan.
+
+```         
+```

@@ -1,0 +1,21 @@
+# Content
+
+week1 Introduction to Remote sensing
+
+week2 Portfolio
+
+week3 Corrections
+
+week4 Policy
+
+week5 Google Earth Engine I
+
+week6 Classification I
+
+week7 Classification II
+
+week8 Temperature
+
+week9 SAR
+
+week10 Resources

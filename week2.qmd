@@ -1,0 +1,12 @@
+# week2
+
+This week we learned how to use Xaringan and Quarto book. The following is a ppt about a remote sensing sensor that I made.
+
+```{r echo=FALSE, out.width='40%'}
+#install.packages('xaringanExtra')
+library(xaringanExtra)
+xaringanExtra::embed_xaringan(
+  url="https://uny96.github.io/RSweek2/#1",
+  ratio="16:9"
+)
+```
