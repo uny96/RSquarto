@@ -74,8 +74,16 @@ Remote sensing has a wide range of applications. Including but not limited to ag
 knitr::include_graphics('img/06week1.jpg')
 ```
 
+@FanandWang20 applied IKONOS remote sensing image as the main data source, extracted ore-controlling factors and mineralization information by image enhancement method, and identified mineral resources. In the images synthesized by bands 3, 2 and 1, the copper mineralization zone presents a narrow strip pattern of gray, blue and blue. The lead-zinc mineralized zone presents a stripe pattern of grayish white, light grayish yellow, and tan tones. This successfully solved the problem of poor natural environment, inconvenient transportation and difficult field geological survey in the west of the West Kunlun Mountains.
+
+```{r echo=FALSE, out.width='100%',fig.align='center'}
+knitr::include_graphics('img/07week1.jpg')
+```
+
 ## reflection
 
 Through this week's lecture, I learned the difference between active sensors and passive sensors, some terms related to remote sensing and four resolutions of remote sensing data: spatial, spectral, temporal, and radiometric. For the practice session, I used remote sensing data from Sentinel and Landsat and visualized their band values.
+
+I have learned that remote sensing is widely used in many fields. Remote sensing images, for example, can be used to explore for mineral resources.
 
 This week is the introduction to the remote sensing course, and I believe that the future learning content will be very rich.

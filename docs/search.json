@@ -4,14 +4,14 @@
     "href": "index.html",
     "title": "CASA0023 Learning Diary",
     "section": "",
-    "text": "Preface\n\n\n\n\n\n\n\n\n\nHi! I am Jingwen Wang. I received my bachelor’s degree in Urban Planning and Design from Xi’an Jiaotong-Liverpool University. In the process of learning, I had developed a strong interest in GIS. Therefore, in my graduation thesis, I applied remote sensing and GIS knowledge to do the urban flood risk assessment of Suzhou City. I am currently pursuing a Master’s degree in Urban Spatial Science at UCL CASA. This learning diary is for one of my course: CASA0023 Remotely Sensing Cities and Environment led by Dr. Maclachlan."
+    "text": "Preface\n\n\n\n\n\n\n\n\n\nHi! I am Jingwen Wang. I received my bachelor’s degree in Urban Planning and Design from Xi’an Jiaotong-Liverpool University. In the process of learning, I had developed a strong interest in GIS. Therefore, in my graduation thesis, I applied remote sensing and GIS knowledge to do the urban flood risk assessment of Suzhou City. I am currently pursuing a Master’s degree in Urban Spatial Science at UCL CASA. This learning diary is for one of my course: CASA0023 Remotely Sensing Cities and Environment led by Dr. Maclachlan.\nI like watching cartoons in my spare time. My favorite cartoon is Luo XiaoBlack War. It tells the story of a kitten-demon living in the human world. The story is very heartwarming. Sometimes I also try to make little animations myself. I’ve come up with three short stories that I hope to turn into animated films one day.\nAs for my future career planning, I plan to study a second master’s degree in artificial intelligence, and then apply for a PhD to study the application of artificial intelligence in the field of smart cities. I think remote sensing is an important source of data. Learning remote sensing related knowledge and technology can help me realize my academic ideal."
   },
   {
     "objectID": "intro.html",
     "href": "intro.html",
     "title": "1  Content",
     "section": "",
-    "text": "week1 Introduction to Remote sensing\nweek2 Portfolio\nweek3 Corrections\nweek4 Policy\nweek5 Google Earth Engine I\nweek6 Classification I\nweek7 Classification II\nweek8 Temperature\nweek9 SAR\nweek10 Resources"
+    "text": "week1 Introduction to Remote Sensing\nweek2 Portfolio\nweek3 Corrections\nweek4 Policy\nweek5 Group Work\nweek6 Google Earth Engine I\nweek7 Classification I\nweek8 Classification II\nweek9 Temperature\nweek10 SAR"
   },
   {
     "objectID": "week1.html#summary",
@@ -25,14 +25,14 @@
     "href": "week1.html#application",
     "title": "2  week1",
     "section": "2.2 application",
-    "text": "2.2 application\nRemote sensing has a wide range of applications. Including but not limited to agriculture, forestry, geoogy, hydrology, sea ice, land cover and land use, oceans and coastal monitoring, atmosphere monitoring, meteorological parametere measured by remote sensing, developing online mapping services and other fields.\nGanesh and Kumar (2013) use this diagram to show some of the applications of remote sensing."
+    "text": "2.2 application\nRemote sensing has a wide range of applications. Including but not limited to agriculture, forestry, geoogy, hydrology, sea ice, land cover and land use, oceans and coastal monitoring, atmosphere monitoring, meteorological parametere measured by remote sensing, developing online mapping services and other fields.\nGanesh and Kumar (2013) use this diagram to show some of the applications of remote sensing.\n\n\n\n\n\n\n\n\n\nFan (2020) applied IKONOS remote sensing image as the main data source, extracted ore-controlling factors and mineralization information by image enhancement method, and identified mineral resources. In the images synthesized by bands 3, 2 and 1, the copper mineralization zone presents a narrow strip pattern of gray, blue and blue. The lead-zinc mineralized zone presents a stripe pattern of grayish white, light grayish yellow, and tan tones. This successfully solved the problem of poor natural environment, inconvenient transportation and difficult field geological survey in the west of the West Kunlun Mountains."
   },
   {
     "objectID": "week1.html#reflection",
     "href": "week1.html#reflection",
     "title": "2  week1",
     "section": "2.3 reflection",
-    "text": "2.3 reflection\nThrough this week’s lecture, I learned the difference between active sensors and passive sensors, some terms related to remote sensing and four resolutions of remote sensing data: spatial, spectral, temporal, and radiometric. For the practice session, I used remote sensing data from Sentinel and Landsat and visualized their band values.\nThis week is the introduction to the remote sensing course, and I believe that the future learning content will be very rich.\n\n\n\n\nGanesh, Senthil, and Niraj Kumar. 2013. “Turnaround Challenges of a State-Owned Enterprise: A Case Study of Orissa Remote Sensing Application Centre, India.” Asian Journal of Management Cases 10: 163–77. https://doi.org/10.1177/0972820113498926."
+    "text": "2.3 reflection\nThrough this week’s lecture, I learned the difference between active sensors and passive sensors, some terms related to remote sensing and four resolutions of remote sensing data: spatial, spectral, temporal, and radiometric. For the practice session, I used remote sensing data from Sentinel and Landsat and visualized their band values.\nI have learned that remote sensing is widely used in many fields. Remote sensing images, for example, can be used to explore for mineral resources.\nThis week is the introduction to the remote sensing course, and I believe that the future learning content will be very rich.\n\n\n\n\nFan, Wang, Yuhai. 2020. “Literate Programming.” Scientific Reports 10 (1): 12309–9. https://doi.org/10.1038/s41598-020-68464-7.\n\n\nGanesh, Senthil, and Niraj Kumar. 2013. “Turnaround Challenges of a State-Owned Enterprise: A Case Study of Orissa Remote Sensing Application Centre, India.” Asian Journal of Management Cases 10: 163–77. https://doi.org/10.1177/0972820113498926."
   },
   {
     "objectID": "week2.html",
