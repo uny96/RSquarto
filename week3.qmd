@@ -2,8 +2,6 @@
 
 ## summary
 
-### lecture
-
 Virginia Norwood designed the Multispectral Scanner which was first used on Landsat 1.
 
 ```{r echo=FALSE, out.width='100%', fig.align='center'}
@@ -117,3 +115,25 @@ Filtering
 PCA
 
 Image fusion
+
+## Application
+
+@Mishra20 introduced an aerosol optical depth (AOD) retrieval and AC algorithm for near-infrared imaging data. For vegetation surface, there is a visible/near-infrared reflectance relationship due to the bsorption of solar radiation by photosynthetic pigments in the visible light band, and the high reflectance in the near infrared band is dominated by the discontinuity of the leaf structure of healthy vegetation. @Mishra20 uses the retrieved AOD to derive the surface reflectance. A comparison of aerosol and surface reflectance products generated from 106 Cartosat-2S data sets with MODIS-terra products showed that the algorithm significantly eliminated haze from the images, making surface features visible.
+
+```{r echo=FALSE, out.width='100%', fig.align='center'}
+knitr::include_graphics('img/11week3.jpg')
+```
+
+@OuatikiBoudharandChehbouni23 used linear scaling, cumulative distribution function matching, linear regression model and random forest to study the robustness of spatial rainfall product estimates.
+
+```{r echo=FALSE, out.width='100%', fig.align='center'}
+knitr::include_graphics('img/12week3.jpg')
+```
+
+The figure above shows the original SRP and the five SRPS corrected using deviation correction techniques.
+
+## Reflection
+
+This week we're going to learn about corrections. corrections include geometric correction, atmospheric correction, orthorectification/Topographic correction and radiometric calibration. We also learned about data joining and enhancement, including feathering and image enhancement.
+
+In the literature review, I learned how to calibrate NIR imaging data and spatial rainfall products.
