@@ -1,1 +1,155 @@
+# week7
 
+## Summary
+
+### Lecture
+
+Classification and regression trees (CART) comprised of classification trees and regression trees
+
+Classification trees: classify data into two or more discrete categories
+
+Regression trees: predict continuous dependent variable
+
+Gini impurity: 1-(probability of yes)\^2-(the probability of no)\^2
+
+```{r echo=FALSE, out.width='100%', fig.align='center'}
+knitr::include_graphics('img/01week7.jpg')
+```
+
+Best model: low bias and low variability
+
+Low bias = model the real relationship
+
+Low variability = consistent predictions between datasets
+
+Reply to overfitting: 1. limit minimum number of pixels in a leaf 2. Remove a leaf
+
+Unsupervised: usually referred to as clustering / also k-means
+
+Pattern vector = all the band values per pixel (could include texture etc)
+
+Practice
+
+1.Load vector data
+
+```{r echo=FALSE, out.width='100%', fig.align='center'}
+knitr::include_graphics('img/02week7.jpg')
+```
+
+2.load EO data
+
+```{r echo=FALSE, out.width='100%', fig.align='center'}
+knitr::include_graphics('img/03week7.jpg')
+```
+
+3\. clip
+
+Change the code from:
+
+var waytwo_clip = waytwo.clip(shenzhen)
+
+To:
+
+var waytwo_clip = waytwo.map(function(image){
+
+  return image.clip(shenzhen);
+
+});
+
+4.trainning data
+
+Change the code from:
+
+// Sample the composite to generate training data.  Note that the
+
+// class label is stored in the 'landcover' property.
+
+var training = waytwo_clip.select(bands).sampleRegions({
+
+  collection: polygons,
+
+  properties: \[classProperty\],
+
+  scale: 10
+
+});
+
+To:
+
+// Sample the composite to generate training data.  Note that the
+
+// class label is stored in the 'landcover' property.
+
+var waytwo_composite = waytwo_clip.median();
+
+var training = waytwo_composite.select(bands).sampleRegions({
+
+  collection: polygons,
+
+  properties: \[classProperty\],
+
+  scale: 10
+
+});
+
+```{r echo=FALSE, out.width='100%', fig.align='center'}
+knitr::include_graphics('img/04week7.jpg')
+```
+
+5.classify
+
+Change code from:
+
+// Classify the image.
+
+var classified = waytwo_clip.classify(classifier);
+
+To:
+
+// Classify the image.
+
+var classified = waytwo_composite.classify(classifier);
+
+```{r echo=FALSE, out.width='100%', fig.align='center'}
+knitr::include_graphics('img/05week7.jpg')
+```
+
+6\. Train test split
+
+Change code from:
+
+Waytwo_clip
+
+To:
+
+Waytwo_composite
+
+7\. Train test split pixel
+
+```{r echo=FALSE, out.width='100%', fig.align='center'}
+knitr::include_graphics('img/06week7.jpg')
+```
+
+Application
+
+@Fauvel12 argues that an example of a classification of remote sensing data is land cover classification, which typically uses spectral information as input to a classifier. Some additional spatial information, such as the size of the roof, is used as supplementary information for urban remote sensing image classification. The following is an example of a flat zone classification.
+
+```{r echo=FALSE, out.width='40%', fig.align='center'}
+knitr::include_graphics('img/07week7.jpg')
+```
+
+@Schowengerdt83 figure out that the first step in the classification program is to train the computer program to recognize the class signature of interest. There are two methods: supervised learning and unsupervised training. Supervised training makes recognition through prior knowledge from field investigations, photographic interpretation, and other sources. Unsupervised training uses a computer algorithm to locate a naturally occurring set of feature vectors from a heterogeneous sample of pixels, and assumes that the computer-specified clusters represent the feature classes in the image for computing class signatures. Classification algorithms are divided into parametric and non-parametric. Parameters assume a particular class statistical distribution, and non-parameters make no assumptions.
+
+```{r echo=FALSE, out.width='100%', fig.align='center'}
+knitr::include_graphics('img/08week7.jpg')
+```
+
+@Chutia16 give a case of hyperspectral remote sensing data classification.
+
+```{r echo=FALSE, out.width='100%', fig.align='center'}
+knitr::include_graphics('img/09week7.jpg')
+```
+
+Reflection
+
+In this week's lecture we learned about regression classification trees. You learned what overfitting is and the difference between supervised and unsupervised learning. In this week's practice, we have used vector and EO data for classification, which uses machine learning methods. In the application module, we will review the classification of multispectral remote sensing images and hyperspectral remote sensing images. And understand two kinds of classification methods and two kinds of classification algorithms.
