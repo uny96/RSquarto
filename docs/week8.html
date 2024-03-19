@@ -175,7 +175,7 @@ div.csl-indent {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./week9.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">week9.html</span></span></a>
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">week9</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -205,6 +205,8 @@ div.csl-indent {
   <li><a href="#lecture" id="toc-lecture" class="nav-link" data-scroll-target="#lecture"><span class="header-section-number">8.1.1</span> Lecture</a></li>
   <li><a href="#practice" id="toc-practice" class="nav-link" data-scroll-target="#practice"><span class="header-section-number">8.1.2</span> Practice</a></li>
   </ul></li>
+  <li><a href="#application" id="toc-application" class="nav-link" data-scroll-target="#application"><span class="header-section-number">8.2</span> Application</a></li>
+  <li><a href="#reflection" id="toc-reflection" class="nav-link" data-scroll-target="#reflection"><span class="header-section-number">8.3</span> Reflection</a></li>
   </ul>
 </nav>
     </div>
@@ -244,7 +246,7 @@ div.csl-indent {
 <p>Sub pixel classification=spectral mixture analysis (SMA)=linear spectral unmixing</p>
 <p>Part 2: Accuracy</p>
 <p>PA producer accuracy=true positive/(true positive + false negative)</p>
-<p>UA user's accuracy=true positive/(true positive + false positive)</p>
+<p>UA user’s accuracy=true positive/(true positive + false positive)</p>
 <p>Overall accuracy=(true positive + true negative)/(true positive +true negative + false positive +false negative)</p>
 <p>True positive: model predicts positive class correctly</p>
 <p>True negative: model predicts negative class correctly</p>
@@ -323,7 +325,10 @@ div.csl-indent {
 </div>
 </div>
 </div>
-<p>Application</p>
+</section>
+</section>
+<section id="application" class="level2" data-number="8.2">
+<h2 data-number="8.2" class="anchored" data-anchor-id="application"><span class="header-section-number">8.2</span> Application</h2>
 <p>1.landcover classification</p>
 <p><span class="citation" data-cites="Qin22">Qin (<a href="references.html#ref-Qin22" role="doc-biblioref">2022</a>)</span> introduces four main categories of deep learning models extract information from RS images, including (a) scene classification, which is used to classify image patches and generate scalar values representing one of the scene types; (b) Semantic segmentation, which takes the image patch as input and obtains the ground coverage type of each pixel in the image patch; (c) Object detection that processes image patches to detect object types and generates bounding boxes for each detected object, and (d) object detection that processes image patches to detect object types.</p>
 <p><span class="citation" data-cites="Hayes13">Hayes (<a href="references.html#ref-Hayes13" role="doc-biblioref">2013</a>)</span> use the ensemble Random Forests (RFs) classifier to classify landcover at 1 m resolution using 2009 NAIP imagery in south-eastern Wyoming.</p>
@@ -350,14 +355,16 @@ div.csl-indent {
 <p>Number of correctly classified site: 21 + 31+ 22 = 74&nbsp;&nbsp;&nbsp; Total number of reference sites = 95</p>
 <p>Overall Accuracy = 74/95 = 77.9%</p>
 <p>Producer’s Accuracy Example based on the above error matrix:</p>
-<p>Water:&nbsp; Correctly classified reference sites = 21&nbsp; Total # of reference sites = 33&nbsp;&nbsp;&nbsp; Producer's Accuracy = 21/33 = 64%</p>
-<p>Forest:&nbsp; Correctly classified reference sites = 31&nbsp;&nbsp; Total # of reference sites = 39&nbsp;&nbsp;&nbsp; Producer's Accuracy = 31/39 = 80%</p>
-<p>Water:&nbsp; Correctly classified reference sites = 22&nbsp;&nbsp;&nbsp; Total # of reference sites = 23&nbsp;&nbsp;&nbsp; Producer's Accuracy = 22/23 =96%</p>
+<p>Water:&nbsp; Correctly classified reference sites = 21&nbsp; Total # of reference sites = 33&nbsp;&nbsp;&nbsp; Producer’s Accuracy = 21/33 = 64%</p>
+<p>Forest:&nbsp; Correctly classified reference sites = 31&nbsp;&nbsp; Total # of reference sites = 39&nbsp;&nbsp;&nbsp; Producer’s Accuracy = 31/39 = 80%</p>
+<p>Water:&nbsp; Correctly classified reference sites = 22&nbsp;&nbsp;&nbsp; Total # of reference sites = 23&nbsp;&nbsp;&nbsp; Producer’s Accuracy = 22/23 =96%</p>
 <p>User’s Accuracy Example based on the above error matrix:</p>
 <p>Water:&nbsp; Correctly classified sites = 21&nbsp; Total # of classified sites = 27&nbsp;&nbsp;&nbsp; User’s Accuracy = 21/27 = 78%</p>
 <p>Forest:&nbsp; Incorrectly classified sites = 31&nbsp;&nbsp; Total # of classified sites = 37&nbsp;&nbsp;&nbsp; User’s Accuracy = 31/37 = 84%</p>
 <p>Water:&nbsp; Incorrectly classified sites = 22&nbsp;&nbsp;&nbsp; Total # of classified sites = 31&nbsp;&nbsp;&nbsp; User’s Accuracy = 22/31 = 70%</p>
-<p>Reflection</p>
+</section>
+<section id="reflection" class="level2" data-number="8.3">
+<h2 data-number="8.3" class="anchored" data-anchor-id="reflection"><span class="header-section-number">8.3</span> Reflection</h2>
 <p>This week I learned about land cover classification and accuracy. In the past, I used to mix accuracy and precision. Now I understand that the two terms do not mean exactly the same thing. Precision refers to the user’s accuracy, that is, how well the user can use the data/classification. Corresponding to this is producer’s accuracy, which refers to the producer’s ability to produce data/classification. Their calculation methods are also completely different.</p>
 <p>At the same time, I found that when using GEE, the same purpose may have more than one way. For example, Spectral unfixing can be obtained in two ways. One is to simply define a variable as the end number; The other is to select some training points to take the average.</p>
 
@@ -370,7 +377,6 @@ Hayes, Miller, M. 2013. <span>“High-Resolution Landcover Classification Using 
 Qin, &amp; Liu, R. 2022. <span>“A Review of Landcover Classification with Very-High Resolution Remotely Sensed Optical Images—Analysis Unit, Model Scalability and Transferability.”</span> <em>Remote Sensing</em> 14 (3): 646. <a href="https://doi.org/10.3390/rs14030646">https://doi.org/10.3390/rs14030646</a>.
 </div>
 </div>
-</section>
 </section>
 
 </main> <!-- /main -->
@@ -615,7 +621,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   </div>
   <div class="nav-page nav-page-next">
       <a href="./week9.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">week9.html</span></span> <i class="bi bi-arrow-right-short"></i>
+        <span class="nav-page-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">week9</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>CASA0023 Learning Diary – week9</title>
+<title>CASA0023 Learning Diary - 9&nbsp; week9</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -65,7 +65,7 @@ ul.task-list li input[type="checkbox"] {
 
 </head>
 
-<body class="nav-sidebar floating fullcontent">
+<body class="nav-sidebar floating">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -74,7 +74,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./week9.html"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">week9.html</span></a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./week9.html"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">week9</span></a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -156,7 +156,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./week9.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">week9.html</span></span></a>
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">week9</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -176,14 +176,162 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#summary" id="toc-summary" class="nav-link active" data-scroll-target="#summary"><span class="header-section-number">9.1</span> Summary</a>
+  <ul class="collapse">
+  <li><a href="#lecture" id="toc-lecture" class="nav-link" data-scroll-target="#lecture"><span class="header-section-number">9.1.1</span> Lecture</a></li>
+  <li><a href="#practice" id="toc-practice" class="nav-link" data-scroll-target="#practice"><span class="header-section-number">9.1.2</span> Practice</a></li>
+  </ul></li>
+  <li><a href="#reflection" id="toc-reflection" class="nav-link" data-scroll-target="#reflection"><span class="header-section-number">9.2</span> Reflection</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">week9</span></h1>
+</div>
 
 
 
+<div class="quarto-title-meta">
 
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<section id="summary" class="level2" data-number="9.1">
+<h2 data-number="9.1" class="anchored" data-anchor-id="summary"><span class="header-section-number">9.1</span> Summary</h2>
+<section id="lecture" class="level3" data-number="9.1.1">
+<h3 data-number="9.1.1" class="anchored" data-anchor-id="lecture"><span class="header-section-number">9.1.1</span> Lecture</h3>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/01week9.jpg" class="img-fluid figure-img" style="width:100.0%"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Passive and active sensor</p>
+<p>Photography aperture: lets more light in to change focus</p>
+<p>“synthetic” aperture: synthesize a long antenna by combining signals, or echoes, received by the radar as it moves along a flight track</p>
+<p>SAR polarization</p>
+<p>Single: 1 horizontal (or vertical)</p>
+<p>Dual: transmits and receives both horizontal and vertical</p>
+<p>HH: emitted in horizontal (H) and received in horizontal (H)</p>
+<p>Rough scattering (e.g.&nbsp;bare earth): most sensitive to VV</p>
+<p>Volume scattering (e.g.&nbsp;leaves): cross, VH or HV</p>
+<p>Double bounce (e.g.&nbsp;trees / buildings): most sensitive to HH</p>
+<p>A SAR signal has both amplitude (backscatter) and phase data</p>
+<p>SAR = active sensor, see through clouds, records energy reflected back</p>
+<p>InSAR = used for DEMs, converting phase different to relative height</p>
+<p>DInSAR = changes between two images in time. Looking at movement of land (uplift or sinking) with topography removed (using a DEM)</p>
+<p>power scale: analysis</p>
+<p>amplitude scale: visualization</p>
+<p>dB scale: dark pixel differences</p>
+<p>Decision level fusion:</p>
+<p>Used radar and optical as separate layers (just appending a band to the stack)</p>
+<p>Then classify</p>
+<p>Object level fusion:</p>
+<p>Need to make objects from the imagery</p>
+<p>Combine optical and SAR (as in decision level)</p>
+<p>Classify</p>
+<p>Image fusion:</p>
+<p>Pixel values are combined from both optical and SAR</p>
+<p>New pixel values</p>
+</section>
+<section id="practice" class="level3" data-number="9.1.2">
+<h3 data-number="9.1.2" class="anchored" data-anchor-id="practice"><span class="header-section-number">9.1.2</span> Practice</h3>
+<p>1.vector data</p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/02week9.jpg" class="img-fluid figure-img" style="width:100.0%"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>2.Landsat</p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/03week9.jpg" class="img-fluid figure-img" style="width:100.0%"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>3.MODIS</p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/04week9.jpg" class="img-fluid figure-img" style="width:100.0%"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>4. Statistics per spatial unit</p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/05week9.jpg" class="img-fluid figure-img" style="width:100.0%"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>5.heat index</p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/06week9.jpg" class="img-fluid figure-img" style="width:100.0%"></p>
+</figure>
+</div>
+</div>
+</div>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/07week9.jpg" class="img-fluid figure-img" style="width:100.0%"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Application</p>
+<p>In terms of temperature, an example of a remote sensing application is the study of the urban heat island effect. The figure below shows the global standardized surface urban heat island effect. Parts of Bangladesh, Brazil and Indonesia can experience heat island effects of more than 10 degrees Celsius per year (Diem et al., 2023).</p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/08week9.jpg" class="img-fluid figure-img" style="width:100.0%"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Measures to mitigate the surface urban heat island effect can be divided into five categories: urban greening, water bodies, urban ventilation, building materials, and urban sprawl control. Increasing vegetation coverage can effectively offset the increase of surface urban heat island effect. Water bodies in urban environments play a cooling role at night. Ventilation corridors allow cold air to be transported from outside the city to dense urban areas. Urban materials with high albedo and reflectivity help mitigate the urban heat island effect. Controlling urban sprawl can solve the problem of restraining the growth of heat island effect.</p>
+</section>
+</section>
+<section id="reflection" class="level2" data-number="9.2">
+<h2 data-number="9.2" class="anchored" data-anchor-id="reflection"><span class="header-section-number">9.2</span> Reflection</h2>
+<p>In this week’s lecture, we have learned the relevant knowledge of synthetic aperture radar data and understood the polarization of SAR. SAR and optical data can be fused through primary component analysis, object-based image analysis, and intensity fusion. In practice, we explored the temperature of urban areas through Landsat and MODIS data. Through literature review, I learned that the application of remote sensing on urban heat island effect is an important research direction of remote sensing in the field of temperature. Surface temperature and air temperature are two concepts commonly used in meteorology, and there are some important differences between them: Definition: Surface temperature: refers to the temperature of the Earth’s surface, usually the temperature of the ground or land surface. This temperature is usually determined by a combination of solar radiation, surface characteristics (such as soil type, cover, etc.), and atmospheric influences. Air temperature: refers to the temperature at a certain point in the atmosphere, usually at different altitudes or locations. Air temperature is usually determined by the heat distribution of the atmosphere, the pressure of the gas, humidity and other factors. Measurement method: Surface temperature is usually measured by ground thermometer, infrared remote sensing and other methods. Air temperature is usually measured by meteorological instruments such as thermometers at different heights or locations. Change characteristics: The surface temperature change is usually relatively slow, affected by surface characteristics, solar radiation and so on. Air temperature changes rapidly, which is affected by atmospheric heat transfer and water vapor content. Influencing factors: Surface temperature is affected by surface characteristics, solar radiation, atmospheric transparency and other factors. Air temperature is affected by the vertical heat transfer of the atmosphere, water vapor content, terrain and other factors.</p>
+
+
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
