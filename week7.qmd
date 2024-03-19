@@ -28,7 +28,7 @@ Unsupervised: usually referred to as clustering / also k-means
 
 Pattern vector = all the band values per pixel (could include texture etc)
 
-Practice
+### Practice
 
 1.Load vector data
 
@@ -130,7 +130,7 @@ Waytwo_composite
 knitr::include_graphics('img/06week7.jpg')
 ```
 
-Application
+## Application
 
 @Fauvel12 argues that an example of a classification of remote sensing data is land cover classification, which typically uses spectral information as input to a classifier. Some additional spatial information, such as the size of the roof, is used as supplementary information for urban remote sensing image classification. The following is an example of a flat zone classification.
 
@@ -150,6 +150,6 @@ knitr::include_graphics('img/08week7.jpg')
 knitr::include_graphics('img/09week7.jpg')
 ```
 
-Reflection
+## Reflection
 
-In this week's lecture we learned about regression classification trees. You learned what overfitting is and the difference between supervised and unsupervised learning. In this week's practice, we have used vector and EO data for classification, which uses machine learning methods. In the application module, we will review the classification of multispectral remote sensing images and hyperspectral remote sensing images. And understand two kinds of classification methods and two kinds of classification algorithms.
+In this week's lecture we learned about regression classification trees. You learned what overfitting is and the difference between supervised and unsupervised learning. Supervised learning relies on label information to predict or classify by learning the mapping relationship between input and output. Unsupervised learning, on the other hand, is learning from unlabeled data, with the goal of discovering structures or patterns within the data. In this week's practice, we have used vector and EO data for classification, which uses machine learning methods. In the application module, we will review the classification of multispectral remote sensing images and hyperspectral remote sensing images. And understand two kinds of classification methods and two kinds of classification algorithms.

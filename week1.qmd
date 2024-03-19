@@ -84,6 +84,6 @@ knitr::include_graphics('img/07week1.jpg')
 
 Through this week's lecture, I learned the difference between active sensors and passive sensors, some terms related to remote sensing and four resolutions of remote sensing data: spatial, spectral, temporal, and radiometric. For the practice session, I used remote sensing data from Sentinel and Landsat and visualized their band values.
 
-I have learned that remote sensing is widely used in many fields. Remote sensing images, for example, can be used to explore for mineral resources.
+I have learned that remote sensing is widely used in many fields. Remote sensing images, for example, can be used to explore for mineral resources.Remote sensing data can use multispectral, hyperspectral and radar remote sensing data to help geologists identify potential mineral resource areas. Through the features and spectral information of remote sensing images, different types of minerals can be classified and identified, such as metallic ores, non-metallic ores, oil and gas ores, etc. Remote sensing technology can help explorers find potential deposits. In mineral exploration and development, remote sensing data can be used to monitor and assess environmental impacts, including changes in land use, water resources, and vegetation cover. Remote sensing data can be used to monitor the risk of geological disasters, such as landslides, earthquakes, volcanic eruptions, etc.
 
 This week is the introduction to the remote sensing course, and I believe that the future learning content will be very rich.

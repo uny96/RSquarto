@@ -136,4 +136,12 @@ The figure above shows the original SRP and the five SRPS corrected using deviat
 
 This week we're going to learn about corrections. corrections include geometric correction, atmospheric correction, orthorectification/Topographic correction and radiometric calibration. We also learned about data joining and enhancement, including feathering and image enhancement.
 
+1.  **Geometric Correction**: Geometric correction is the process of accurately mapping features in an image to their true locations on the Earth's surface to correct for distortions caused by factors such as the position of the sensor, Earth's curvature, and terrain.
+
+2.  **Atmospheric Correction**: Atmospheric correction involves reducing or eliminating the effects of the atmosphere on remote sensing images. It aims to simulate or remove atmospheric absorption, scattering, and transmission effects to make the images more accurately reflect surface features.
+
+3.  **Orthorectification/Topographic Correction**: Orthorectification refers to adjusting remote sensing images to account for terrain-induced distortions by converting image pixels to geometric coordinates on the ground surface. This correction, which is a type of topographic correction, helps accurately match surface features, particularly in areas with complex terrain.
+
+4.  **Radiometric Calibration**: Radiometric calibration ensures that the digital values in remote sensing images accurately represent the radiometric properties of the objects on the ground. It involves correcting sensor response, removing effects of illumination conditions, atmospheric influences, and sensor characteristics on image brightness values. Radiometric calibration enables quantitative analysis of images, such as estimating surface reflectance or temperature.
+
 In the literature review, I learned how to calibrate NIR imaging data and spatial rainfall products.
